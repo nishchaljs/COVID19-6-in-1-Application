@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:itemBackground">@color/colorWhite</item>
+
+
+        <item name="android:itemTextAppearance">@style/AppTheme.ItemTextStyle</item>
+
+    </style>
+    <style name="AppTheme.ItemTextStyle" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/colorPrimary</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="TextAppearance.TextInputLayout.White" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Small</item>
+        <!--<item name="colorControlActivated">@color/colorWhite</item>-->
+
+    </style>
+</resources>

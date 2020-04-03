@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "720980804528",
+    "firebase_url": "https://cancerhub-a15dc.firebaseio.com",
+    "project_id": "cancerhub-a15dc",
+    "storage_bucket": "cancerhub-a15dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720980804528:android:1b56bf0eace3f017",
+        "android_client_info": {
+          "package_name": "com.example.joy.cancerhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720980804528-9d393nrvqhs6pm064afa3n0goqa6a1rm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.joy.cancerhub",
+            "certificate_hash": "c7425f81236942047f7433a9d1a22e7a57ab8dfb"
+          }
+        },
+        {
+          "client_id": "720980804528-qk1fufhrn941vmr9m2r7nd4u0lo086pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBipHmFGZigTKEDeEUF_ybb5ws-vCuHHhQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720980804528-qk1fufhrn941vmr9m2r7nd4u0lo086pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

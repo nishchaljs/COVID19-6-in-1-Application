@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Cancer.Hub</string>
+    <string name="welcome">How can we help you today?</string>
+    <string name="welcome1">Welcome Joy,</string>
+    <string name="med_news">Roche received a FDA CLIA waiver for its rapid -of -care test to detect and differentiate influenza A virus and influenza B virus,using its cobas Liat PCR System. </string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email id to send you the reset password instructions</string>
+    <string name="btn_reset_password">RESET PASSWORD</string>
+    <string name="btn_back"><![CDATA[<<Back]]></string>
+    <string name="hint_email">Email</string>
+
+    <string name="action_settings">Settings</string>
+        <string-array name="time">
+            <item>Hours</item>
+            <item>Days</item>
+            <item>Weeks</item>
+            <item>Months</item>
+            <item>Years</item>
+        </string-array>
+
+
+
+    <string-array name="cancer_properties">
+        <item>Overview</item>
+        <item>Medical Illustrations</item>
+        <item>Risk Factors</item>
+        <item>Symptoms and Sign</item>
+        <item>Diagnosis</item>
+        <item>Stages and Grades</item>
+        <item>Treatment &amp; Management</item>
+        <item>Latest Research</item>
+    </string-array>
+    <string name="title_activity_profile">Cancer.Hub</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Roney Camille</string>
+    <string name="nav_header_subtitle">roneycamille96@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="what_symptoms_are_you_experiencing">What symptoms are you experiencing?</string>
+    <string name="x_30"><![CDATA[x<30]]></string>
+    <string name="_30_x_50"><![CDATA[30<x<50]]></string>
+    <string name="_50_x_75"><![CDATA[50<x<75]]></string>
+
+    <string name="About">For millions of people , Cancer.Hub is a trusted home for Cancer health. It connects them with everything they need to take good care of themselves and their loved ones - finding the right doctor, booking diagnostic tests and further consultations,storing their health records or learning new ways to live healthier and coping up with cancer.</string>
+
+    <string-array name="occupational_Hazards">
+        <item>--Select Hazard--</item>
+        <item>Radiation exposure</item>
+        <item>Sunlight exposure</item>
+        <item>Chemical Exposure</item>
+        <item>Thermal Exposure</item>
+    </string-array>
+
+    <string-array name="habits">
+        <item>--Select Habit--</item>
+        <item>Fast food addiction</item>
+        <item>Smoking</item>
+        <item>Alcohol</item>
+        <item>Chewing</item>
+        <item>Hot beverage</item>
+    </string-array>
+    <string name="html">
+        <![CDATA[
+        <div><div class="title section"><h1>How do I cope?</h1></div>
+<div class="text parbase section">
+<div><h2>Taking in the news</h2>
+<p>At first, most people need some time to adjust to the fact that they have cancer. They need time to think about what’s most important in their lives and get support from loved ones. For many, this is an <a href="/treatment/treatments-and-side-effects/emotional-side-effects.html">emotionally hard time</a>. Feelings such as disbelief, shock, fear, and anger are all normal. These feelings use up a lot of mental energy. This can make it even harder to take in and understand all the medical information shared by the <a href="/treatment/finding-and-paying-for-treatment/choosing-your-treatment-team/health-professionals-associated-with-cancer-care.html">cancer care team</a>. You’ll likely need some time to absorb and understand what your diagnosis and treatment options mean for you and your loved ones.</p>
+<h2>Coping skills</h2>
+<p>People cope with cancer just like they cope with many other problems in life – each person does it in their own way. With time and practice, most people find ways to go on with their work, hobbies, and social relationships. They find new or different ways to live their lives to the fullest.</p>
+<p>As you look for a way of coping that works for you, you may want to try some of these ideas:</p>
+<ul>
+<li><b>Learn as much as you can about your cancer and its treatment.</b> Some people find that learning about their cancer and its treatment gives them a sense of control over what’s happening. Along with your cancer care team, we can answer your questions about cancer and help you find other resources. </li>
+<li><b>Express your feelings.</b> Some people find that giving some kind of outlet to their feelings helps. Many people feel that expressing sadness, fear, or anger is a sign of weakness. In fact, the opposite is often true. It’s much harder to express powerful emotions than it is to try to hide them. Hiding your feelings can also make it harder to find good ways to deal with them. There are many ways to express your feelings. Find one that fits you. You might try to talk with trusted friends or relatives, or keep a private journal. Some people express their feelings through music, painting, or drawing.</li>
+<li><b>Take care of yourself.</b> Take time to do something you enjoy every day. Cook your favorite meal, spend time with a friend or loved one, watch a movie, meditate, listen to your favorite music, or do something else you really enjoy.</li>
+<li><b>Exercise.</b> If you feel up to it, and your doctor agrees that it’s OK, start a mild exercise program such as walking, yoga, swimming, or stretching. Exercise can help you feel better.</li>
+<li><b>Reach out to others.</b> There may be times when finding strength is hard and things feel overwhelming. It’s very hard for any one person to handle having cancer all alone. Try to widen your circle by reaching out to friends, family, or support organizations. These people can help you feel less alone. They’ll be there to share your fears, hopes, and triumphs every step of the way.</li>
+<li><b>Try to focus on what you can control, not what you can’t.</b> Finding ways to be hopeful can improve the quality of your life, but it won’t determine whether you’ll beat cancer. Despite what you may hear, people’s attitudes don’t cause or cure cancer. It’s normal to feel sad, stressed, or uncertain, and even to grieve over how your life has changed. When this happens, expressing those feelings can help you feel more in control rather than overwhelmed by your emotions. It also frees up energy for all the other things you need to handle.</li>
+</ul>
+<p>For more on these topics, you can read <a href="/cancer/cancer-basics/attitudes-and-cancer.html"><i>Attitudes and Cancer</i></a> and <a href="/treatment/treatments-and-side-effects/emotional-side-effects.html"><i>Coping With Cancer in Everyday Life</i></a>. </p>
+<h2>Cancer and depression</h2>
+<p>Many people go through a time of grief and sadness when they first learn that they have cancer. They grieve the loss of health and certainty in their lives. This sadness may seem like depression, but it’s not the same. Grieving – feeling sadness, fear, anger, or going through crying spells – is a common reaction to learning you have cancer. It usually doesn’t last a long time, and is a normal, healthy response to such a profound change in a person’s life. You can learn more in <a href="/treatment/treatments-and-side-effects/emotional-side-effects/anxiety-fear-depression.html"><i>Anxiety, Fear, and Depression</i></a>. </p>
+<p>About 1 in 4 people with cancer becomes truly depressed. Depressed people often have very low energy, decreased drive to do things, and trouble making decisions. They also may feel useless or helpless. Depression can make it much harder to keep up with cancer treatment plans.</p>
+<h3>Signs of depression</h3>
+<p>You may be depressed if your time of grieving:</p>
+<ul>
+<li>Lasts for weeks and doesn’t seem to be getting any better</li>
+<li>Has you feeling worthless or hopeless</li>
+<li>Causes problems with your day-to-day activities (such as being too sad to leave the house or get out of bed)</li>
+</ul>
+<h3>Getting help</h3>
+<p>Some people are embarrassed or afraid to admit it if they’re depressed. It may help to know that depression can be caused by the chemical changes that go along with cancer. It’s not a sign of weakness, and it’s no one’s fault. Depression can be treated with medicines, counseling, or both. Treatment for depression can help you feel better and regain a sense of control and hope for the future. Talk to your doctor if you have concerns or questions about depression.</p></div>
+        ]]>
+    </string>
+
+</resources>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:background="#0000ffff">
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    android:layout_marginTop="40dp"
+    android:layout_margin="13dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="3dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBtn"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/nav_header_desc"
+                android:padding="5dp"
+                android:src="@drawable/cancer_icon"
+                app:civ_border_color="#FF000000" />
+
+            <TextView
+                android:id="@+id/textViewPersonal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Request Appointment"
+                android:textColor="#fff"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-10dp"
+            android:rotation="45"
+            android:src="@drawable/square" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:paddingRight="10dp">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="3dp"
+                android:layout_margin="5dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/in_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_date_range"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="15dp"
+                        android:drawablePadding="15dp"
+                        android:hint="Set date "
+                        android:background="@null"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/separator" />
+                    <EditText
+                        android:id="@+id/in_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_access_time_black_24dp"
+                        android:drawablePadding="15dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="15dp"
+                        android:hint="Set time"
+                        android:background="@null"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/separator" />
+
+                    <EditText
+                        android:id="@+id/in_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_person_black"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="15dp"
+                        android:inputType="textEmailAddress"
+                        android:drawablePadding="15dp"
+                        android:background="@null"
+                        android:hint="Enter your Email"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Appointment hours:"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="20sp"
+                    android:text="9:00 AM - 2:00 PM"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:id="@+id/btnSendAppointment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="SEND"
+                    android:textColor="@color/colorBtn" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
+
+</ScrollView>

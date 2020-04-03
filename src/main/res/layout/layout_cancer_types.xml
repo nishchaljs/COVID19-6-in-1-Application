@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/rowMainParentLinearLayout"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textVCancerType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity=""
+        android:padding="15dp"
+        android:text="Lung Cancer"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textVCancerType"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorPrimary" />
+</LinearLayout>
