@@ -1,32 +1,28 @@
 package com.example.joy.cancerhub.models;
 
+import java.net.URL;
+
 public class Doctor {
 
     private String name;
     private String description;
-    private String exactPlace;
-    private String picture;
+    private int picture;
     private String emailaddress;
 
     public Doctor(){}
 
-
-    public Doctor(String emailaddress) {
-        this.emailaddress = emailaddress;
-    }
-    public String getEmailaddress() {
-        return emailaddress;
-    }
-
     public void setEmailaddress(String emailaddress) {
         this.emailaddress = emailaddress;
     }
+    public String  getEmailaddress() {
+        return emailaddress;
+    }
 
-    public Doctor(String name, String description, String exactPlace, String picture) {
+    public Doctor(String name, String description, int picture, String url) {
         this.name = name;
         this.description = description;
-        this.exactPlace = exactPlace;
         this.picture = picture;
+        this.emailaddress=url;
     }
     public String getName() {
         return name;
@@ -44,19 +40,11 @@ public class Doctor {
         this.description = description;
     }
 
-    public String getExactPlace() {
-        return exactPlace;
-    }
-
-    public void setExactPlace(String exactPlace) {
-        this.exactPlace = exactPlace;
-    }
-
-    public String getPicture() {
+    public int getPicture() {
         return picture;
     }
 
-    public void setPicture(String picture) {
+    public void setPicture(int picture) {
         this.picture = picture;
     }
 

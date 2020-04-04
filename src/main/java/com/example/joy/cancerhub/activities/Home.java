@@ -41,7 +41,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
     private ProgressDialog progressDialog;
     public TextView textWelcomeMessage, emailprofile, profilefull;
     GridLayout gridLayout;
-    CardView cardView1, cardView2, cardView3, cardView4, cardView5, cardView6;
+    CardView cardView1, cardView2, cardView3, cardView4, cardView5, cardView6, cardView7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,14 +71,18 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         cardView2 = findViewById(R.id.card_view2);
         cardView3 = findViewById(R.id.card_view3);
         cardView4 = findViewById(R.id.card_view4);
-        cardView5 = findViewById(R.id.card_view5);
+        //cardView5 = findViewById(R.id.card_view5);
         cardView6 = findViewById(R.id.card_view6);
+        cardView7 = findViewById(R.id.card_view7);
+
+
         cardView1.setOnClickListener(this);
         cardView2.setOnClickListener(this);
         cardView3.setOnClickListener(this);
         cardView4.setOnClickListener(this);
-        cardView5.setOnClickListener(this);
+        //cardView5.setOnClickListener(this);
         cardView6.setOnClickListener(this);
+        cardView7.setOnClickListener(this);
 
         textWelcomeMessage = findViewById(R.id.textWelcomeMessage);
 
@@ -214,6 +218,10 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         if (view == cardView6) {
             //finish();
             startActivity(new Intent(this, Information.class));
+        }
+        if (view == cardView7) {
+            //finish();
+            startActivity(new Intent(this, protect.class));
         }
     }
 }

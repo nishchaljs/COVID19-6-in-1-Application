@@ -8,7 +8,7 @@
         android:id="@+id/textViewLogin1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to Cancer.hub"
+        android:text="Welcome to COVID19.Hub"
         android:textColor="#fff"
         android:textSize="24dp"
         android:textStyle="bold"

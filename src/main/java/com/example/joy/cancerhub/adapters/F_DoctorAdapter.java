@@ -2,6 +2,7 @@ package com.example.joy.cancerhub.adapters;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -24,21 +25,20 @@ public class F_DoctorAdapter extends RecyclerView.Adapter<F_DoctorAdapter.MyView
     private List<Doctor> docsList;
     private Context context;
 
-    public F_DoctorAdapter(Context context, List<Doctor> docsList) {
+    public F_DoctorAdapter(List<Doctor> docsList, Context context) {
         this.docsList = docsList;
-        this.context = context;
+        this.context=context;
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        public TextView docs_name, docs_description, docs_exactPlace;
+        public TextView docs_name, docs_description;
         public ImageView imageView;
         Button appoinment;
 
         public MyViewHolder(View itemView) {
             super(itemView);
             docs_name = itemView.findViewById(R.id.textViewName);
-            docs_description = itemView.findViewById(R.id.textViewDesc);
-            docs_exactPlace = itemView.findViewById(R.id.textViewPlace);
+            docs_description = itemView.findViewById(R.id.textViewCharges);
             imageView = itemView.findViewById(R.id.imageViewDoc);
             appoinment = itemView.findViewById(R.id.appointment_btn);
         }
@@ -58,24 +58,18 @@ public class F_DoctorAdapter extends RecyclerView.Adapter<F_DoctorAdapter.MyView
         final Doctor doctor = docsList.get(position);
         holder.docs_name.setText(doctor.getName());
         holder.docs_description.setText(doctor.getDescription());
-        holder.docs_exactPlace.setText(doctor.getExactPlace());
         holder.appoinment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(context, MakeAppointment.class);
-                Bundle bundle = new Bundle();
-                bundle.putString("doctor_email", doctor.getEmailaddress());
-                intent.putExtras(bundle);
+                Uri uri = Uri.parse(doctor.getEmailaddress()); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 context.startActivity(intent);
             }
         });
 
-        if (doctor.getPicture().isEmpty()) {
-            holder.imageView.setImageResource(R.drawable.doc_avatar);
-        } else {
-            Glide.with(context).load(doctor.getPicture()).into(holder.imageView);
-        }
+          Glide.with(context).load(doctor.getPicture()).into(holder.imageView);
+
     }
 
 

@@ -46,10 +46,11 @@
         <activity android:name=".activities.CancerTypeInfo" />
         <activity
             android:name=".activities.Home"
-            android:label="@string/title_activity_profile"
+            android:label="COVID19.Hub"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity android:name=".activities.Information" />
+        <activity android:name=".activities.protect" />
 <!--        <activity android:name=".activities.Main_Reminder" />-->
         <activity android:name=".activities.Help" />
         <activity android:name=".activities.About" />
