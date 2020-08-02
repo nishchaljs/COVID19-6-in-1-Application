@@ -21,3 +21,8 @@ An android application which has the following functionalities:
 * Check the build-->generated-->outputs-->apk folder to get the apk
 
 ## Screenshots of the application:
+<img src="https://github.com/nishchaljs/covid19/blob/master/Screenshots/Screenshot_20200404-144330.jpg" alt="drawing" width="400"/>
+<img src="https://github.com/nishchaljs/covid19/blob/master/Screenshots/Screenshot_20200404-235731.jpg" alt="drawing" width="400"/>
+<img src="https://github.com/nishchaljs/covid19/blob/master/Screenshots/Screenshot_20200404-235740.jpg" alt="drawing" width="400"/>
+<img src="https://github.com/nishchaljs/covid19/blob/master/Screenshots/Screenshot_20200404-235744.jpg" alt="drawing" width="400"/>
+<img src="https://github.com/nishchaljs/covid19/blob/master/Screenshots/Screenshot_20200404-235750.jpg" alt="drawing" width="400"/>
